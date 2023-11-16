@@ -3,7 +3,6 @@ body {
     display: flex;
     justify-content: center;
     background-color: #FFFFFF;
-   
 }
 
 .main-container {
@@ -12,20 +11,25 @@ body {
     padding: 0 50px;
     box-sizing: border-box;
 }
+
+h1 {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 18px;
+}
 /* Début du header*/
 .header {
     display: flex;
     justify-content: space-between;
     max-width: 1340px;
-    height: 62px;
-    margin-left: 50px;
-    margin-right: 50px;   
+    height: 62px; 
 }
 
 .header-container-img {
    width: 70px;
    height: 62px;
-   margin-left: 5px;
 }
 
 .header-img {
@@ -38,7 +42,6 @@ body {
     display: flex;
     width: 240px;
     height: 50px;
-    margin-right: 5px;  
     gap: 4.25em;
 }
 
@@ -70,16 +73,11 @@ body {
     display: flex;
     flex-direction: column;
     box-sizing: content-box;
-    max-width: 1340px;
-    margin-left: 40px;
-    margin-right: 40px;
     margin-top: 1px;
     margin-bottom: 20px;  
 }
 /* Barre de recherche*/
 .search-text {
-    margin-left: 12px;
-    margin-right: 40px;
     margin-top: 1px;
     margin-bottom: 20px;
 }
@@ -91,7 +89,6 @@ body {
     height: 50Px;
     padding-top: 17px;
     padding-bottom: 17px;
-    padding-left: 10px;   
 }
 
 .search-logo {
@@ -119,7 +116,7 @@ body {
     text-align: center;
     border: none;
     outline-style: solid #F2F2F2;
-    font-size: 1em;
+    font-size: 18px;
     font-weight: bold;
     opacity: 1;
 }
@@ -169,16 +166,15 @@ input::placeholder {
     flex-wrap: wrap;
     align-items: baseline;
     max-width: 1340px;
-   padding-left: 12px;
     padding-bottom: 17px;
 } 
 
 .filters h2 {
     height: 20px;
     width: 80px;
-    text-align: center;
+    text-align: left;
     margin-top: 15px;
-    padding-left: 36px;
+   
 }
 
 .search-filters {
@@ -219,10 +215,10 @@ input::placeholder {
 }
 
 p span {
-    font-weight: 600;
+    font-weight: 700;
     margin-left: 8px;
     margin-right: 8px;
-    font-size: 18px;
+    font-size: 17px;
     color: black;
 }
 
@@ -234,7 +230,7 @@ p span i {
     display: flex;
     max-width: 1440px;
     min-width: 320px;
-    margin-left: 56px;
+   
     margin-bottom: 20px;
     align-items: center;
 }
@@ -311,47 +307,41 @@ a {
 .housing {
     display: flex;
     flex-wrap: wrap;
-    width: 65%;
-   
+    width: 65%; 
 }
 
 .housing-title {
-    display: block;
-    width: 400px;
+    display: flex;
     height: 35px;
     justify-content: space-between;
     align-items: center;
-    margin-left: 43px;
-    margin-top: 10px;
-    margin-bottom: -10px; 
+    margin-left: 10px;
+   
 }
 
 .section-housing {
-width: 400px;
-height: 35px;
     display: flex;
 }
 
 .housing-cards {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-    box-sizing: content-box;
-    width: 100%;   
+    align-content: space-between;
 }
 
 .housing-card {
     justify-content: center;
-   width: 250px;
-   height: 210px;
+   width: 29%;
+   min-width: 220px;
+    max-height: 200px;
     background-color: #FFFFFF;
-    margin-left: 10px;
     margin-right: 10px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    border-radius: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.3));
 }
 
@@ -369,10 +359,10 @@ height: 35px;
     padding-top: 7px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 }
 
 .housing-cards .card-content {
-
     padding-left: 15px;
     display: flex;
     flex-direction: column;
@@ -393,37 +383,29 @@ height: 35px;
 }
 
 .showmore {
-    display: block;
-    width: 400px;
-    height: 35px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 43px;
-    margin-bottom: 35px;
-    margin-top: -40px;
+    margin-left: 10px;   
 }
 
 .more {
-    width: 400px;
-    height: 35px;
+  
         display: flex;
 }
 /* Section populaires*/
 .popular {
-    width: 32%;
-   
+    width: 32%; 
 }
 
 .popular-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
 }
 
 .popular-cards .card {
     display: flex;
-
     margin-top: 33px;
   
 }
