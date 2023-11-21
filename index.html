@@ -19,10 +19,10 @@
             </div>    
             <nav class="header-container-nav">
                 <div class="header-link-container">
-                    <a href="#Hebergements" class="header-nav-link">Hébergements</a>
+                    <a href="#hebergements" class="header-nav-link">Hébergements</a>
                 </div>
                 <div class="header-link-container">
-                    <a href="#activites" class="header-nav-link">Activités</a>
+                    <a href="#activities" class="header-nav-link">Activités</a>
                 </div>   
             </nav>          
         </header>
@@ -36,17 +36,17 @@
                     <p>En plein centre ville ou en pleine nature</p>
                 </div>
             </div>
+
             <div class="search-bar">
-                <div class="search-logo">
-                    <i class="fa-solid fa-location-dot"></i>
-                </div>
-                <div class="search-input">
-                    <input class="input" type="search" id="city" name="country" placeholder="Marseille, France">
-                </div>
-                <div>
-                    <a href="#"><button class="button" type="submit">Rechercher</button></a>
-                </div>     
+                <form  method="get" action="#" class="form">
+                    <div class="search-logo">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <input type="text" class="line" id="city,country" name="city,country" placeholder="Marseille, France" required> 
+                    <input  type="submit" value="Rechercher" class="button">
+                </form>
             </div>
+
         </div>
         <div class=" filters">
             <div>
@@ -83,7 +83,7 @@
         </div>
     <main>
         <div class="accommodation">
-            <section class="housing">
+            <section class="housing" id="hebergements">
                 <div class="housing-title">
                     <h2 class="section-housing">Hébergements à Marseille</h2>
                 </div>
@@ -286,7 +286,7 @@
             </section>
         </div>
           
-            <section class="activitiesinmarseille">
+            <div class="activitiesinmarseille" id="activities">
                <article class="activities-container">
                 <h2 class="activities-title">Activités à Marseille</h2>
 
@@ -326,7 +326,7 @@
                         </div>
                     </div>
                 </article>
-            </section>
+            </div>
            
     </main>
     <footer>
@@ -353,20 +353,7 @@
             </ul>
         </div>
     </footer>
-<!--icones 
-        <br>
-        <br>
-        <div class="icones">
-            <i class="fa-solid fa-chart-line"></i>
-            <i class="fa-solid fa-chart-line"></i>
-            <i class="fa-solid fa-dog"></i>
-            <i class="fa-solid fa-info"></i>
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-circle"></i>
-            <i class="fa-regular fa-circle"></i>
-            <i class="fa-solid fa-star"></i>
-        </div>
-  -->  
+
 
 </div> 
 </body>
