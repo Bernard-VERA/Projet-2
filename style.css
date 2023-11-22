@@ -40,8 +40,9 @@ h5 {
 
 .header {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
-    max-width: 1340px;
     height: 62px; 
 }
 .town-center p {
@@ -61,7 +62,6 @@ h5 {
 
 .header-container-nav {
     display: flex;
-    width: 240px;
     height: 50px;
     gap: 4.25em;
 }
@@ -76,6 +76,8 @@ h5 {
     width: 112px;
     height: 50px;
     margin-top: 46px;
+    padding-left: 25px;
+    padding-right: 25px;
     text-decoration: none;
     color: black;
     text-align: center;
@@ -158,7 +160,7 @@ input[type="search"]::-webkit-search-cancel-button {
     display: none;
 }
 */
-.button { 
+button { 
     box-sizing: border-box;
     width: 132px;
     height: 49px;
@@ -171,10 +173,8 @@ input[type="search"]::-webkit-search-cancel-button {
     cursor: pointer;
 }
 
-.button:hover {
-    background-color: #DEEBFF;
-    color: #0065FF;
-    border-color: #0065FF;
+button i {
+    display: none !important;
 }
 
 /* Les filtres de recherche*/
@@ -623,6 +623,7 @@ a {
     .filter a {
         width: 169px;
     }
+
     .filter-button {
         width: 145px;
         padding-left: 0px;
@@ -709,6 +710,197 @@ a {
 
  @media (max-width: 767.98px) {
 
+    .main-container {
+        width: 100%;
+        padding: 0px 0px;
+        justify-content: center;
+        box-sizing: content-box;
+    }
+
+    .header {
+        height: 115px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-container-img {
+       
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-container-img a {
+        margin: auto;
+    }
+
+    .header-nav-link {
+        margin-bottom: 46px;
+    }
+
+    .header-nav-link:hover {
+        color: #0065FC; 
+        border-bottom: 3px solid #0065FC;
+        padding-bottom: 20px;
+        border-top: none;
+    }
+     
+    .search {
+        margin-bottom: 0px;
+        margin-left: 4px;
+    }
+
+    .search-bar {
+        width: 298px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .search-logo {
+        width: 49px;
+    }
+
+    button {
+        width: 49px;
+    }
+
+    button i {
+        display: contents !important;
+        width: 49px;
+        color:#FFFFFF
+    }
+
+    button span {
+        width: 49px;
+        display: none !important;
+    }
+
+    .filters {
+        margin-left: 4px;
+    }
+
+    .search-filters {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 320px;
+    }
+
+    .filter {
+        justify-content: center;
+        padding-right: 5px;
+        width: 335;
+        gap: 10px;
+    }
+
+    .filter a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 147px;
+    }
+
+    .filter-button p {
+        font-size: 14px;
+        width: 147px;
+    }
+
+    .info {
+        margin-left: 4px;
+    }
+
+    .accommodation {
+        flex-direction: column-reverse;   
+    }
+
+    .accommodation section {
+        border-radius: 0px;
+    }
+
+    .popular {
+        margin-top: 0px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        background-color: #F2F2F2;
+    }
+
+    .popular-cards {
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .popular-cards .card{
+        margin-top: 15px;
+    }
+    
+    .popular-cards a {
+        width: 100%;
+    }
+
+    .bloc1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .bloc2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    section.housing {
+        background-color: #FFFFFF;
+    }
+
+    .housing-cards {
+        gap: 0px;
+    }
+
+    .housing-card {
+        width: 100%;
+        margin-bottom: 9px;
+        margin-top: 9px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .activities {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .activities-title {
+        margin-bottom: 35px;
+    }
+    
+    .activity {
+        height: 200px;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .activity img {
+        height: 141px;
+    }
+
+    .footer {
+        flex-direction: row;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .our-hostings {
+        width: 100%;
+    }
+
+    .support {
+        width: 100%;
+    }
  }
 
     
