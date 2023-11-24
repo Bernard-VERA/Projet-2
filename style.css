@@ -38,60 +38,42 @@ h5 {
 
 /* Début du header*/
 
-.header {
+.header-container {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     justify-content: space-between;
-    height: 62px; 
+    max-width: 1440px;
+    width: 100%;
+    height: 79px;
 }
+
+.logo {
+    width: 61px;
+    height: 19px;
+    padding: 30px 0px 30px 0px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-link {
+    width: 125px;
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+    font-size: 16px;
+    border-top: 3px solid transparent;
+}
+
+.header-link:hover {
+    color: #0065FF;
+    border-top: 3px solid #0065FF;
+}
+
 .town-center p {
     font-size: 16px;
 }
-
-.header-container-img {
-   width: 70px;
-   height: 62px;
-}
-
-.header-img {
-    width: 61.09px;
-    height: 19px;
-    margin-top: 30px;
-}
-
-.header-container-nav {
-    display: flex;
-    height: 50px;
-    gap: 4.25em;
-}
-
-.header-link-container {
-    width:113px;
-    height: 35px;
-    margin-top: 23px;
-}
-
-.header-nav-link {
-    width: 112px;
-    height: 50px;
-    margin-top: 46px;
-    padding-left: 25px;
-    padding-right: 25px;
-    text-decoration: none;
-    color: black;
-    text-align: center;
-    border-top: 14px solid transparent;
-    font-size: 16px;
-}
-
-
-.header-nav-link:hover {
-    color: #0065FC; 
-    border-top: 3px solid #0065FC;
-    padding-top: 20px;
-}
-
 /* Fin du header - Début de la Section recherche */
 
 .search {
