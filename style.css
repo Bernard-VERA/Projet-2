@@ -68,7 +68,7 @@ h5 {
 
 .header-link:hover {
     color: #0065FF;
-    border-top: 2px solid #0065FF;
+    border-top: 3px solid #0065FF;
 }
 
 .town-center p {
@@ -336,6 +336,7 @@ a {
 }
 
 .housing-cards {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -346,31 +347,37 @@ a {
 
  .bloc1 {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     width: 100%;
+    gap: 20px;
  }
 
  .bloc2 {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: stretch;
+    justify-content: stretch;
     width: 100%;
+    gap: 20px;
  }
 
 .housing-card {
     justify-content: center;
     width: 33%;
     background-color: #FFFFFF;
-    margin-right: 10px;
-    margin-left: 10px;
     border-radius: 20px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.3));
 }
 
+.topcard {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 .housing-card a {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
 }
 
@@ -385,9 +392,10 @@ a {
 }
 
 .housing-cards img {
+    display: flex;
+    justify-content: center;
+    width: 94%;
     height: 114px;
-    padding-left: 6px;
-    padding-right: 6px;
     padding-top: 7px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -404,6 +412,7 @@ a {
 .housing-cards .card-title {
     margin-top: 10px;
     margin-bottom: 4px;
+   
 }
 
 .housing-cards .card-subtitle {
@@ -880,6 +889,12 @@ a {
         margin-top: 9px;
         margin-left: 0px;
         margin-right: 0px;
+    }
+
+    .housing-card img {
+        width: 98%;
+        padding-left: 6px;
+        padding-right: 6px;
     }
 
     .activities {
