@@ -16,6 +16,10 @@ body {
     flex-direction: column;
 }
 
+header {
+    width: 99%;
+}
+
 h1 {
     font-size: 22px;
 }
@@ -224,7 +228,6 @@ button i {
 }
 .filter-button:hover {
     background-color: #DEEBFF;
-    color: #0065FF;
     border-color: #DEEBFF;
 }
 
@@ -253,7 +256,7 @@ p span {
 
 .icon-info {
     width: 24px;
-    height: 24px;
+    height: 22px;
     border: 1px solid #D9D9D9;
     border-radius: 100%;
     text-align: center;
@@ -267,7 +270,9 @@ p span {
 }
 
 /* Section hébergement et populaires */
-
+main {
+    width: 99%;
+}
 .accommodation {
     display: flex;
     justify-content: space-between;
@@ -419,8 +424,7 @@ a {
 
 .housing-cards .card-title {
     margin-top: 10px;
-    margin-bottom: 4px;
-   
+    margin-bottom: 4px;  
 }
 
 .housing-cards .card-subtitle {
@@ -441,9 +445,9 @@ a {
 }
 
 .more {
-        display: flex;
-        margin-top: 0;
-        margin-bottom: 0;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* Section populaires*/
@@ -575,8 +579,8 @@ a {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-left: 15px;
-    width: 100%;
+    width: 97%;
+    padding-left: 3%;
  }
 
  footer div {
@@ -626,23 +630,30 @@ a {
     }
 
     .filter {
-        width: 100%;
+        width: 95%;
+        max-width: 667px;
         flex-wrap: nowrap;
         justify-content: left;
         margin-left: 0px;
-        gap: 15px;
+        gap: 10px;
     }
 
-  .filter-bloc {
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
+    .filter-bloc {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
 
-  }
+    .filter-bloc a {
+        display: block;
+        width: 100%;
+        max-width: 344px;
+    }
 
     .filter-button {
-        width: 50%;
+        width: 98%;
+        max-width: 167px;
         padding-left: 0px;
         display: flex;
         justify-content: left;
@@ -650,13 +661,14 @@ a {
     }
 
     .filter-button span {
-        width: 44px;
+        width: 25%;
         height: 49px;
-    font-size: 16px;
+        font-size: 16px;
     }
 
     .filter-button p {
-        text-align: center;
+        width: 70%;
+        text-align: left;
     }
 
     main {
@@ -774,7 +786,6 @@ a {
     .search {
         margin-top: 20px;
         margin-bottom: 0px;
-        margin-left: 4px;
     }
     .search-text {
         margin-left: 6px;
@@ -819,40 +830,55 @@ a {
     }
 
     .filters {
-        margin-left: 4px;
+        margin-left: -4px;
+    }
+
+    .filters h3 {
+        margin-left: 9px;
     }
 
     .search-filters {
-        width: 98%;
-        height: 120px;
+       min-width: 120px;
+        height: 140px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-    }
-
-    .filter {
-        width: 96%;
-        align-items: center;
-        flex-direction: column;
         justify-content: center;
     }
 
+    .filter {
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
     .filter-bloc {
-        width: 60%;
+        width: 100%;
+        justify-content: center;
+        max-width: 420px;
     }
 
     .filter-button {
-        width: 50%;
+        width: 100%;
+        max-width: 200px;
     }
 
     .filter a {
         padding-top: 5px;
         padding-bottom: 5px;
+        min-width: 130px;
     }
 
     .filter-button p {
         font-size: 14px;
-        width: 147px;
+        min-width: 80px;
+        padding-left: 9px;
+    }
+
+    .filter-button span  {
+        padding-left: 5px;
     }
 
     .info {
@@ -869,6 +895,7 @@ a {
 
     .accommodation section {
         border-radius: 0px;
+        padding: 20px;
     }
 
     .popular {
@@ -935,6 +962,8 @@ a {
     .activities {
         flex-wrap: wrap;
         flex-direction: row;
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
     .activities-title {
@@ -956,15 +985,18 @@ a {
     }
 
     .about {
-        width: 100%;
+        width: 97%;
+        padding-left: 20px;
     }
 
     .our-hostings {
-        width: 100%;
+        width: 97%;
+        padding-left: 20px;
     }
 
     .support {
-        width: 100%;
+        width: 97%;
+        padding-left: 20px;
     }
  }
 
