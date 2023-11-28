@@ -626,7 +626,7 @@ a {
 
  /* -----------Format Tablette----------- */
 
- @media (max-width: 1024px) {
+ @media screen and (max-width: 1024px) {
 
     .header {
         width: 100%;
@@ -778,7 +778,7 @@ a {
 
  /* ----------Format Small devices----------*/
 
- @media (max-width: 767.98px) {
+ @media screen and (max-width: 767.98px) {
 
     .main-container {
         width: 100%;
@@ -811,6 +811,7 @@ a {
         width: 100%;
         border-top: transparent;
         padding-bottom: 20px;
+        border-bottom: 2px solid transparent;
     }
 
     .header-link:hover {
