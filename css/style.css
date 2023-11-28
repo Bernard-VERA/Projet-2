@@ -240,7 +240,7 @@ button i {
     background-color: #DEEBFF;
 }
 
-p span {
+.filter-button p span {
     font-weight: 700;
     margin-left: 8px;
     margin-right: 8px;
@@ -414,6 +414,13 @@ a {
 
 .housing-cards .card-subtitle {
     margin: 0;
+    font-size: 14px;
+}
+
+.housing-cards span {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 0px;
 }
 
 .housing-cards .card-rating {
@@ -742,7 +749,7 @@ a {
     }
 
     .popular-cards a {
-        width: 30%;
+        width: 32%;
     }
 
     .activities-title {
@@ -776,7 +783,7 @@ a {
     }
  } 
 
- /* ----------Format Small devices----------*/
+ /* ----------Format Mobile----------*/
 
  @media screen and (max-width: 767.98px) {
 
