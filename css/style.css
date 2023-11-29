@@ -1043,12 +1043,7 @@ a {
         
     }
 
-    .about {
-        width: 97%;
-        padding-left: 20px;
-    }
-
-    .our-hostings {
+    .about, .our-hostings{
         width: 97%;
         padding-left: 20px;
     }
