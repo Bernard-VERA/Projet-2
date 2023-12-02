@@ -11,7 +11,7 @@ body {
     background-color: #FFFFFF;
 }
 
-.main-container {
+.master-container {
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
@@ -94,7 +94,6 @@ h5 {
 }
 
 .search {
-    width: 100%;
     display: flex;
     flex-direction: column;
     box-sizing: content-box;
@@ -259,7 +258,6 @@ button i {
 .info {
     display: flex;
     max-width: 1440px;
-    min-width: 320px;
     padding-top: 20px;
     padding-bottom: 38px;
     align-items: center;
@@ -285,7 +283,7 @@ button i {
 /* ----------Début de la partie hébergements et populaires---------- */
 
 main {
-    width: 99%;
+    width: 100%;
 }
 
 .accommodation {
@@ -788,7 +786,7 @@ a {
 
  @media screen and (max-width: 767.98px) {
 
-    .main-container {
+    .master-container {
         width: 100%;
         padding: 0px 0px;
         justify-content: center;
@@ -830,11 +828,10 @@ a {
      
     .search {
         margin-top: 20px;
-        margin-bottom: 0px;
     }
     .search-text {
-        margin-left: 6px;
-        padding-bottom: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .search-bar {
@@ -842,7 +839,7 @@ a {
     }
 
     .form {
-        width: 80%;
+        width: 85%;
         justify-content: center;
         margin: auto;
     }
@@ -850,7 +847,9 @@ a {
     .line {
         width: 85%;
         min-width: 163Px;
-        margin-right: -2px;
+        text-align: left;
+        padding-left: 24px;
+
     }
     .search-logo {
        min-width: 49px;
@@ -876,7 +875,9 @@ a {
     }
 
     .filters {
-        margin-left: -4px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
     }
 
     .filters h3 {
@@ -903,12 +904,11 @@ a {
     .filter-bloc {
         width: 100%;
         justify-content: center;
-        max-width: 420px;
     }
 
     .filter-button {
         width: 100%;
-        max-width: 200px;
+        max-width: none;
     }
 
     .filter a {
@@ -920,16 +920,18 @@ a {
     .filter-button p {
         font-size: 14px;
         min-width: 80px;
-        padding-left: 9px;
+        margin-right: 4px;
     }
 
     .filter-button span  {
         padding-left: 5px;
+        width: 49px;
     }
 
     .info {
         max-width: 98%;
-        margin-left: 4px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .text-info {
         width: 100%;
