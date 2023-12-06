@@ -78,8 +78,8 @@ h5 {
 }
 
 .header-link:hover {
-    color: #0065FF;
-    border-top: 3px solid #0065FF;
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
 }
 
 /* ----------Fin du header - Début de la Section recherche---------- */
@@ -166,7 +166,7 @@ button {
     margin: 0 auto;
     border: none;
     border-radius: 0px 15px 15px 0px;
-    background-color: #0065FF;
+    background-color: #0065FC;
     font-size: 18px;
     color: #FFFFFF;
     cursor: pointer;
@@ -305,7 +305,7 @@ a {
 }
 
 .fa-star {
-    color: #0065FF;
+    color: #0065FC;
 }
 
 .neutral-star {
@@ -460,7 +460,7 @@ a {
 }
 
 .fa-chart-line {
-    color: #0065FF;
+    color: #0065FC;
 }
 
 .popular-cards .card {
