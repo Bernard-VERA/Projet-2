@@ -34,5 +34,5 @@ Ces compétences sont fondamentales pour assurer une expérience utilisateur opt
 ---------------
 
 <p align="center" width="100%">
-    <img width="50%" src="https://github.com/Bernard-VERA/Projet-2/blob/main/booki.jpg"> 
+    <img width="50%" src="https://github.com/Bernard-VERA/Projet-2/blob/main/images/booki.jpg"> 
 </p>
