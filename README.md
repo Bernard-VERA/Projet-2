@@ -29,7 +29,10 @@ __Pièces jointes :__
 ## Compétences
 La capacité à créer des interfaces web responsives est cruciale dans le développement web moderne.  
 En apprenant à intégrer des maquettes avec précision en utilisant HTML et CSS, et en configurant un environnement de développement efficace, vous poserez les bases nécessaires pour devenir un développeur front-end compétent.  
-Ces compétences sont fondamentales pour assurer une expérience utilisateur optimale sur divers appareils, un aspect essentiel pour la réussite de tout site web ou application.
+Ces compétences sont fondamentales pour assurer une expérience utilisateur optimale sur divers appareils, un aspect essentiel pour la réussite de tout site web ou application.  
+<br/>
+Vous pouvez voir le projet en cliquant ici : <a href="https://bernard-vera.github.io/Projet-2/" target="_blank">Booki</a>  
+
 
 ---------------
 
